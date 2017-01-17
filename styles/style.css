@@ -1,0 +1,93 @@
+
+@font-face {
+    font-family: 'SourceSansPro-Black';
+    src: url('../fonts/SourceSansPro-Black.otf');
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Regular';
+    src: url('../fonts/SourceSansPro-Regular.otf');
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Bold';
+    src: url('../fonts/SourceSansPro-Bold.otf');
+}
+ body{
+     max-width: 1080px;
+     margin: 0;
+     padding: 0 108px;
+ }
+
+.header {
+    height: 80px;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding:0;
+
+
+}
+
+.header-logo {
+    font-family : SourceSansPro-Bold, Arial, sans-serif;
+    font-weight : bold;
+    font-size : 26px;
+    margin: 0;
+    padding: 20px 0;
+    display: inline-block;
+    position: relative;
+    float: left;
+
+}
+
+.header-logo h1 {
+    color:black;
+    margin: 0;
+
+}
+
+.header-logo h1 span {
+    color : #F9A522;
+    margin-left: 10px;
+}
+
+.header-nav{
+    display: block;
+    position: relative;
+    float: right;
+    margin: 0;
+    padding: 30px 0;
+}
+
+.header-nav-block{
+    position: relative;
+    display: inline-block;
+}
+
+.header-nav-block_item{
+    font-family : SourceSansPro-Regular, Arial, sans-serif;
+    font-size : 18px;
+    color : rgb(25, 55, 76);
+    margin-left: 40px;
+    list-style-type: none;
+    position: relative;
+    float: left;
+}
+
+.header-nav-block_item a:hover{
+    cursor: pointer;
+    color:#F9A522;
+}
+
+
+
+
+
+h2 {
+    font-family: 'SourceSansPro-Regular', Arial, sans-serif;
+}
+
+h3 {
+    font-family: 'SourceSansPro-Bold', Arial, sans-serif;
+}

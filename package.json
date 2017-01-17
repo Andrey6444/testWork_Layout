@@ -1,0 +1,21 @@
+
+{
+  "name": "testWork_Layout",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Impose layout. Add scripts.",
+  "main": "index.html",
+  "author": "Ivanov_A",
+  "repository": "https://github.com/Andrey6444/testWork_Layout.git",
+  "license": "ISC",
+  "devDependencies": {
+
+    "normalize.css": "^5.0.0",
+    "jquery": "^2.2.0"
+  },
+  "scripts": {
+
+    "prestart": "npm install"
+
+  }
+}
