@@ -1,16 +1,21 @@
 #slider-wrap{ /* Оболочка слайдера и кнопок */
     width:100%;
     position: relative;
+    margin-top: 0;
+    padding-top: 0;
 }
 #slider{ /* Оболочка слайдера */
     width:100%;
     height:340px;
     overflow: hidden;
-   /* border:#eee solid 10px;*/
-    position:relative;}
+    position:relative;
+   }
+
 .slide{ /* Слайд */
     width:100%;
     height:100%;
+    margin-top: 0;
+    padding-top: 0;
 }
 .slide1{
     background-image: url(../images/slide1.svg);
@@ -20,52 +25,99 @@
 .slide2{
    background-color: burlywood;
 }
+
+
 .slide3{
     background-color: peru;
 }
 
 .slider-content{
+    width: 300px;
     position: absolute;
     top:60px;
-    right: 300px;
+    right: 200px;
 }
 
-.slider-content h2{
-    font-family : VerdanaArial, sans-serif;
+.slider-content h3{
+    font-family : Verdana,Arial, sans-serif;
     font-size : 36px;
+    font-weight: normal;
     margin: 5px;
 
-    line-height : 26px;
+    line-height : 32px;
     color : rgb(255, 255, 255);
 }
 .slider-content p {
     font-family : SourceSansPro-Black,sans-serif ;
     font-size : 36px;
     margin: 5px;
-    line-height : 26px;
+    line-height : 32px;
+    color : rgb(255, 255, 255);
+}
+.slider-content span{
+
+    font-family : SourceSansPro-Regular, Arial, sans-serif;
+    font-size : 14px;
     color : rgb(255, 255, 255);
 }
 .slider1_img{
-    width:252px;
-    height:218px;
+    width:260px;
+    height:225px;
     position: relative;
-    margin-left: 100px;
-    margin-top: 60px;
+    margin-left: 118px;
+    margin-top: 64px;
 }
+
 .slider2_img{
-    width:252px;
-    height:218px;
+    width:260px;
+    height:225px;
     position: relative;
-    margin-left: 700px;
-    margin-top: 60px;
+    margin-left: 118px;
+    margin-top: 64px;
 }
 .slider3_img{
-    width:252px;
-    height:218px;
+    width:260px;
+    height:225px;
     position: relative;
-    margin-left: 100px;
-    margin-top: 60px;
+    margin-left: 118px;
+    margin-top: 64px;
 }
+
+.slider-screen{
+    width: 240px;
+    height: 130px;
+    font-family : SourceSansPro-Bold, Arial, sans-serif;
+    font-weight : bold;
+    font-size : 28px;
+    margin:0;
+    padding:0;
+    position: absolute;
+    background-color: white;
+    top: 75px;
+    left: 128px;
+    text-align: center;
+
+
+}
+.slider-screen  h2{
+    color:black;
+    margin-top:30px;
+    margin-bottom: 0;
+
+}
+.slider-screen span{
+    color : #F9A522;
+    margin-left: 10px;
+}
+.slider-screen p{
+    font-family : SourceSansPro-Regular,  Arial, sans-serif;
+    font-size : 10px;
+    letter-spacing : 0.4px;
+    color : rgb(128, 127, 125);
+    margin: 0;
+    padding: 0;
+}
+
 .sli-links{ /* Кнопки смены слайдов */
     margin-top:-45px;
 

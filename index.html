@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link  rel="stylesheet" href="node_modules/normalize.css">
-    <link  rel="stylesheet" href="styles/slider_style.css">
-    <link  rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="styles/slider_style.css">
+   <!-- <link rel="stylesheet" href="styles/styles-carousel.css">-->
+    <link rel="stylesheet" href="styles/style.css">
 
     <!--<link href='http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic'
           rel='stylesheet' type='text/css'>-->
@@ -14,46 +15,242 @@
 
 </head>
 <body>
-<header class="header">
+<div class="body">
+    <header class="header">
 
-    <div class="header-logo">
-        <h1>YOUR<span>logo</span></h1>
-    </div>
+        <div class="header-logo">
+            <a href="#"><h1>YOUR<span>logo</span></h1></a>
+        </div>
 
-    <div class="header-nav">
-        <ul class="header-nav-block">
-            <li class="header-nav-block_item"><a>Home</a></li>
-            <li class="header-nav-block_item"><a>Pages</a></li>
-            <li class="header-nav-block_item"><a>Feature</a></li>
-            <li class="header-nav-block_item"><a>Services</a></li>
-            <li class="header-nav-block_item"><a>Blog</a></li>
-            <li class="header-nav-block_item"><a>Contact</a></li>
-        </ul>
-    </div>
-</header>
+        <div class="header-nav">
+            <ul class="header-nav-block">
+                <li class="header-nav-block_item"><a>Home</a></li>
+                <li class="header-nav-block_item"><a>Pages</a></li>
+                <li class="header-nav-block_item"><a>Feature <img src="images/arrow_down.svg"></a></li>
+                <li class="header-nav-block_item"><a>Services</a></li>
+                <li class="header-nav-block_item"><a>Blog</a></li>
+                <li class="header-nav-block_item"><a>Contact</a></li>
+            </ul>
+        </div>
+    </header>
 
     <div id="slider-wrap">
         <div id="slider">
-            <div class="slide slide1"><img class="slider1_img" src="images/display.svg" >
+            <div class="slide slide1"><img class="slider1_img" src="images/display.svg">
+                <div class="slider-screen"><h2>YOUR<span>logo</span></h2>
+                    <p>Lorem ipsum is simply dummy text</p></div>
                 <div class="slider-content">
-                    <h2>AWESOME</h2>
+                    <h3>AWESOME</h3>
                     <p>WEBSITE <br> TEMPLATE</p>
-                </div></div>
-            <div class="slide slide2"><img class="slider2_img" src="images/display.svg" >
-
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+                </div>
+            </div>
+            <div class="slide slide2">
+                <div class="slider-content">
+                    <h3 style="color: black">AWESOME</h3>
+                    <p style="color: black">WEBSITE <br> TEMPLATE</p>
+                    <span style="color: black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+                </div>
             </div>
             <div class="slide slide3"><img class="slider3_img" src="images/display.svg">
+                <div class="slider-screen"><h2>YOUR<span>logo</span></h2>
+                    <p>Lorem ipsum is simply dummy text</p></div>
                 <div class="slider-content">
-                    <h2>AWESOME</h2>
+                    <h3>AWESOME</h3>
                     <p>WEBSITE <br> TEMPLATE</p>
-                </div></div>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+                </div>
+            </div>
         </div>
     </div>
 
-    <h2>hhghgsfrhv</h2>
-    <h3>werfwerhifgfhoagf</h3>
+    <section>
+        <div class="top-section">
+            <h3>Create Your Own Genuine Web Masterpiece</h3>
+            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry</p>
+
+            <div class="top-section-block">
+                <img src="images/portfolio1.jpg">
+                <p>Awesome title</p>
+
+            </div>
+            <div class="top-section-block">
+                <img src="images/portfolio2.jpg">
+                <p>Awesome title</p>
+            </div>
+            <div class="top-section-block">
+                <img src="images/portfolio3.jpg">
+                <p>Awesome title</p>
+            </div>
+            <div class="top-section-block" style="margin-right: 0">
+                <img src="images/portfolio4.jpg">
+                <p>Awesome title</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="middle-section">
+            <div class="video-block">
+                <h4>Video Tour</h4>
+                <hr>
+                <div class="video-tour">
+                    <iframe src="https://player.vimeo.com/video/199868244" frameborder="0"></iframe>
+                </div>
+            </div>
+
+            <div class="carousel">
+                <h4>Testimonials</h4>
+
+                <div class="carousel-button-right"><a href="#"></a></div>
+                <div class="carousel-button-left"><a href="#"></a></div>
+
+                <hr>
+                <div class="carousel-wrapper">
+                    <div class="carousel-items">
+
+                        <div class="carousel-block">
+                            <img src="images/author_1.jpg">
+                            <div class="carousel-block-name">
+                                <p>Lisa Johnson</p>
+                                <span>Manager</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </div>
+
+                        <div class="carousel-block">
+                            <img src="images/author_2.jpg">
+                            <div class="carousel-block-name">
+                                <p>Eva Fry</p>
+                                <span>Designer</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </div>
+
+                        <div class="carousel-block">
+                            <img src="images/author_3.jpg">
+                            <div class="carousel-block-name">
+                                <p>Layla Fisher</p>
+                                <span>Manager</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </div>
+
+                        <div class="carousel-block">
+                            <img src="images/author_4.jpg">
+                            <div class="carousel-block-name">
+                                <p>Anna Petrova</p>
+                                <span>HR Manager</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </div>
+
+                        <div class="carousel-block">
+                            <img src="images/author_5.jpg">
+                            <div class="carousel-block-name">
+                                <p>Any Hofman</p>
+                                <span>Developers</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </div>
+
+                        <div class="carousel-block">
+                            <img src="images/author_6.jpg">
+                            <div class="carousel-block-name">
+                                <p>Antony Feels</p>
+                                <span>WEB Designer </span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </div>
+
+                        <div class="carousel-block">
+                            <img src="images/author_7.jpg">
+                            <div class="carousel-block-name">
+                                <p>Ivan Bush</p>
+                                <span>Developer</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="bottom-section">
+            <hr>
+            <div class="bottom-section-block">
+                <p>PARTNER'S <br><span>LOGO</span></p>
+            </div>
+            <div class="bottom-section-block">
+                <p>PARTNER'S <br><span style="color: rgb(25, 55, 76)">LOGO</span></p>
+            </div>
+            <div class="bottom-section-block">
+                <p>PARTNER'S <br><span>LOGO</span></p>
+            </div>
+            <div class="bottom-section-block">
+                <p>PARTNER'S <br><span style="color: rgb(25, 55, 76)">LOGO</span></p>
+            </div>
+            <div class="bottom-section-block" style="border-right: none">
+                <p>PARTNER'S <br><span>LOGO</span></p>
+            </div>
+        </div>
+    </section>
+</div>
+<footer>
+    <div class="footer-block-left">
+        <p>ABOUT US</p>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <br> <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+    </div>
+    <div class="footer-block-center">
+        <p>QUICK LINKS</p>
+        <a ><img src="images/arrow_right.svg">ALERTS AND STUFFS</a>
+        <hr>
+        <a><img src="images/arrow_right.svg">CUSTOM SHORTCODES</a>
+        <hr>
+        <a><img src="images/arrow_right.svg">PRICING PLANS</a>
+        <hr>
+        <a><img src="images/arrow_right.svg">TOGGLE ELEMENTS</a>
+        <hr>
+        <a><img src="images/arrow_right.svg">TYPOGRAPHY</a>
+    </div>
+    <div class="footer-block-right">
+        <p>GET IN TOUCH</p>
+        <ul>
+            <li><img src="images/home.svg"><span>66 South Street,<br>Window 6 Wonderland</span></li>
+            <li><img src="images/phone.svg"><span>+440 87536928 - Office,<br>+440 35336314</span></li>
+            <li><img src="images/mail.svg"><span>freepik@sitename.com<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
+        </ul>
+    </div>
+</footer>
+
 
 <script src="scripts/slider_script.js"></script>
+<script src="scripts/carousel.js"></script>
+
 
 </body>
 </html>
