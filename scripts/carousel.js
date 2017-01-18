@@ -1,3 +1,4 @@
+(function ($) {
 //Обработка клика на стрелку вправо
 $(document).on('click', ".carousel-button-right",function(){ 
 	var carusel = $(this).parents('.carousel');
@@ -26,5 +27,5 @@ function right_carusel(carusel){
       $(carusel).find(".carousel-items").css({"left":"0px"}); 
    }); 
 }
-
+})(jQuery);
 

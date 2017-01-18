@@ -130,7 +130,7 @@ position: relative}
     height:16px;
     overflow:hidden;
     text-indent:-9999px;
-    background:url(../radioBg.png) center bottom no-repeat;}
+    background:url(../images/radioBg.png) center bottom no-repeat;}
 .sli-links .control-slide:hover{
     cursor:pointer;
     background-position:center center;}

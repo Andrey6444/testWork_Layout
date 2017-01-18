@@ -9,13 +9,10 @@
   "repository": "https://github.com/Andrey6444/testWork_Layout.git",
   "license": "ISC",
   "devDependencies": {
-
     "normalize.css": "^5.0.0",
     "jquery": "^2.2.0"
   },
   "scripts": {
-
     "prestart": "npm install"
-
   }
 }
